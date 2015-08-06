@@ -1,0 +1,7 @@
+Welcome, <%= @user.email %>!
+
+ <% if logged_in? %>
+   Welcome, <%= current_user.email %>
+<% end %>
+
+

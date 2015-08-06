@@ -1,0 +1,7 @@
+
+
+<%= form_for @user do |f| %>
+  <%= f.email_field :email, placeholder: "Email", autofocus: true %>
+  <%= f.password_field :password, placeholder: "Password" %>
+  <%= f.submit "sign up" %>
+<% end %>
